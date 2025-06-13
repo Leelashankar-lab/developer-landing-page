@@ -1,0 +1,114 @@
+*{
+    padding: 0%;
+    margin: 0%;
+}
+
+.introduction{
+    height: 100vh;
+    background-image: url(developer.ping.png);
+    background-size: cover;
+    background-position: center;
+    color: white;
+    font-family: Sans-serif;
+}
+.textpart{
+    position: absolute;
+    top: 50px;
+}
+.name{
+    font-size: 30px;
+    font-weight: 100px;
+}
+.hi{
+    font-size: 72px;
+    font-weight: 500;
+    padding-left: 200px;
+}
+.skill{
+    font-size: 72px;
+    font-weight: 550;
+    padding-left: 200px;
+}
+.blackbox{
+    background-color: black;
+    color: white;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 50px;
+    font-family: Sans-serif;
+    font-weight: 10px;
+}
+.work{
+    height: 400px;
+    width: 320px;
+    box-shadow: 3px 5px 5px rgba(1, 1, 1, 0.2);
+    border-radius: 10px;
+    margin-left: 30px;
+    margin-bottom: 20px;
+     transition: 0.2s ease-in-out;
+}
+#work{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding-top: 30px;
+}
+#dev{
+    background-image: url(web.png);
+    background-repeat: no-repeat;
+}
+#app{
+    background-image: url(mobile.png);
+    background-repeat: no-repeat;
+}
+#uxui{
+    background-image: url(web.png);
+    background-repeat: no-repeat;
+}
+.content{
+    position: relative;
+    top: 210px;
+    left: 10px;
+}
+.content p{
+    margin-top: 10px;
+}
+.contact{
+    height: 150px;
+    display: flex;
+    color: white;
+}
+#contact{
+    background-color: #515603;
+    width: 800px;
+    padding-left: 20px;
+    padding-top: 20px;
+    font-family: Sans-serif;
+}
+#contact p{
+    margin-top: 10px;
+}
+#aboutme{
+     background-color:  #722300;
+     width: 800px;
+     padding-left: 20px;
+    padding-top: 20px;
+}
+#aboutme p{
+    margin-top: 10px;}
+footer{
+    background-color: black;
+    color: white;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 25px;
+    font-family: Sans-serif;
+}
+.work:hover{
+    transform: scale(1.04);
+  box-shadow: 3px 5px 5px rgba(1, 1, 1, 0.3);
+}
